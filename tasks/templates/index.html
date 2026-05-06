@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"> <!--кодировка страницы-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task Tracker</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> <!--подключение библиотеки Bootstrap-->
+
+  </head>
+  <body>
+    {% csrf_token %}
+      <div class="container"> <!--создание контейнера-->
+        <br>
+        <h2><strong>Task Tracker Мурзагалиева Э.А. 📝</strong></h2> <!--заголовок страницы-->
+
+        <br>
+
+         <ul class="list-group">
+
+            <li class="list-group-item mb-2"> <!--создание элемента списка и вывод на экран 1 задачи-->
+              1. Проснуться-улыбнуться.
+            </li> 
+            <li class="list-group-item mb-2"> <!--создание элемента списка и вывод на экран 2 задачи-->
+              2. Приехать в университет на пары.
+            </li> 
+            <li class="list-group-item mb-2"> <!--создание элемента списка и вывод на экран 3 задачи-->
+              3. Изучить лекционный материал для выполнения ЛР.
+            </li>
+            <li class="list-group-item mb-2"> <!--создание элемента списка и вывод на экран 4 задачи-->
+              4. Рассмотреть пример шаблона по Django.
+            </li>
+            <li class="list-group-item mb-2"> <!--создание элемента списка и вывод на экран 5 задачи-->
+              5. Выполнить лабораторную работу.
+            </li>
+            <li class="list-group-item mb-2"> <!--создание элемента списка и вывод на экран 6 задачи-->
+              6. Пройти тест по управлению проектами.
+            </li>
+            <li class="list-group-item mb-2"> <!--создание элемента списка и вывод на экран 7 задачи-->
+              7. Вернуться домой.
+            </li>
+        </ul>
+
+
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> <!--подключение библиотеки Bootstrap-->
+
+  </body>
+</html>
+
+<!--Проверила Гошко Я.И. -->
